@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TR-808 Drum Pad Beat maker</string>
+    <string name="app_name">BreakBeats Drum Pad Beat maker</string>
     <string name="textView">bd_short_01</string>
     <string name="textView2">bd_long_02</string>
     <string name="textView3">bd_long_03</string>
@@ -25,7 +25,6 @@
     <string name="onRequestPermissionsResult1">Permissions is granted. Press it again.</string>
     <string name="onRequestPermissionsResult2">Permissions is denied.</string>
 
-
     <string name="READ_REQUEST_CODE2">cannot specify audio files outside of the Music folder.</string>
 
     <string name="menu5">Watch video ads &amp; hide banner ads</string>
@@ -48,19 +47,11 @@
     <string name="textView17">P\nI\nT\nC\nH</string>
 
     <string-array name="spinnerItems">
-        <item>BASS DRUM [BD]</item>
-        <item>HAND CLAP [CP]</item>
-        <item>CLAVES [CL]</item>
-        <item>CLSD HI HAT [CH]</item>
-        <item>CONGA [HC-MC-LC]</item>
-        <item>COWBELL [CB]</item>
-        <item>CYMBAL [CY]</item>
-        <item>MARACAS [MA]</item>
-        <item>OPEN HI HAT [OH]</item>
-        <item>RIMSHOT [RS]</item>
-        <item>SNARE DRUM [SD]</item>
-        <item>TOM [LT-MT-HT]</item>
-        <item>Sample Loops</item>
+        <item>Drum Sets</item>
+        <item>[125bpm Loops]</item>
+        <item>[130bpm Loops]</item>
+        <item>[135bpm Loops]</item>
+        <item>[140bpm Loops]</item>
         <item>Internal sounds</item>
         <item>External sounds</item>
     </string-array>
