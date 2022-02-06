@@ -1,4 +1,4 @@
-package jp.chikaharu11.instant_drumpad_tr808
+package jp.chikaharu11.instant_drumpad_breakbeats
 
 import android.Manifest
 import android.animation.Animator
@@ -25,7 +25,7 @@ import androidx.core.view.isVisible
 import com.google.android.gms.ads.*
 import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
-import jp.chikaharu11.instant_drumpad_tr808.databinding.ActivityMainBinding
+import jp.chikaharu11.instant_drumpad_breakbeats.databinding.ActivityMainBinding
 import java.util.*
 import kotlin.math.hypot
 
