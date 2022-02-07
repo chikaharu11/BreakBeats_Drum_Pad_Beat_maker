@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e2e3e3"
+    android:background="#B17676"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity"
@@ -19,7 +19,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +35,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
@@ -51,7 +51,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/adView"
@@ -67,7 +67,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/imageView"
         app:layout_constraintBottom_toTopOf="@id/imageView5"
@@ -83,7 +83,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toBottomOf="@id/imageView4"
         app:layout_constraintStart_toEndOf="@id/imageView2"
         app:layout_constraintBottom_toTopOf="@id/imageView6"
@@ -99,7 +99,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toBottomOf="@id/imageView5"
         app:layout_constraintStart_toEndOf="@id/imageView3"
         app:layout_constraintBottom_toTopOf="@id/adView"
@@ -115,7 +115,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/imageView4"
         app:layout_constraintBottom_toTopOf="@id/imageView8"
@@ -131,7 +131,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toBottomOf="@id/imageView7"
         app:layout_constraintStart_toEndOf="@id/imageView5"
         app:layout_constraintBottom_toTopOf="@id/imageView9"
@@ -147,7 +147,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toBottomOf="@id/imageView8"
         app:layout_constraintStart_toEndOf="@id/imageView6"
         app:layout_constraintBottom_toTopOf="@id/adView"
@@ -163,7 +163,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/imageView7"
         app:layout_constraintBottom_toTopOf="@id/imageView11"
@@ -179,7 +179,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toBottomOf="@id/imageView10"
         app:layout_constraintStart_toEndOf="@id/imageView8"
         app:layout_constraintBottom_toTopOf="@id/imageView12"
@@ -195,7 +195,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toBottomOf="@id/imageView11"
         app:layout_constraintStart_toEndOf="@id/imageView9"
         app:layout_constraintBottom_toTopOf="@id/adView"
@@ -211,7 +211,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/imageView10"
         app:layout_constraintBottom_toTopOf="@id/imageView14"
@@ -227,7 +227,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toBottomOf="@id/imageView13"
         app:layout_constraintStart_toEndOf="@id/imageView11"
         app:layout_constraintBottom_toTopOf="@id/imageView15"
@@ -243,7 +243,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:scaleType="fitXY"
-        android:foreground="@drawable/my_ripple2"
+        android:foreground="@drawable/round_corners2"
         app:layout_constraintTop_toBottomOf="@id/imageView14"
         app:layout_constraintStart_toEndOf="@id/imageView12"
         app:layout_constraintEnd_toEndOf="parent"
@@ -263,7 +263,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -274,7 +274,7 @@
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         android:scaleType="fitXY"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="parent"
@@ -295,7 +295,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/adView"
         app:layout_constraintEnd_toStartOf="@+id/imageView6"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -311,7 +311,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView"
         app:layout_constraintBottom_toTopOf="@id/imageView5"
         app:layout_constraintEnd_toStartOf="@id/imageView7"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -327,7 +327,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView2"
         app:layout_constraintBottom_toTopOf="@id/imageView6"
         app:layout_constraintEnd_toStartOf="@id/imageView8"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -343,7 +343,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView3"
         app:layout_constraintBottom_toTopOf="@id/adView"
         app:layout_constraintEnd_toStartOf="@id/imageView9"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -359,7 +359,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView4"
         app:layout_constraintBottom_toTopOf="@id/imageView8"
         app:layout_constraintEnd_toStartOf="@id/imageView10"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -375,7 +375,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView5"
         app:layout_constraintBottom_toTopOf="@id/imageView9"
         app:layout_constraintEnd_toStartOf="@id/imageView11"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -391,7 +391,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView6"
         app:layout_constraintBottom_toTopOf="@id/adView"
         app:layout_constraintEnd_toStartOf="@id/imageView12"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -407,7 +407,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView7"
         app:layout_constraintBottom_toTopOf="@id/imageView11"
         app:layout_constraintEnd_toStartOf="@id/imageView13"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -423,7 +423,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView8"
         app:layout_constraintBottom_toTopOf="@id/imageView12"
         app:layout_constraintEnd_toStartOf="@id/imageView14"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -439,7 +439,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView9"
         app:layout_constraintBottom_toTopOf="@id/adView"
         app:layout_constraintEnd_toStartOf="@id/imageView15"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -455,7 +455,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView10"
         app:layout_constraintBottom_toTopOf="@id/imageView14"
         app:layout_constraintEnd_toEndOf="parent"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -471,7 +471,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView11"
         app:layout_constraintBottom_toTopOf="@id/imageView15"
         app:layout_constraintEnd_toEndOf="parent"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <ImageView
@@ -487,7 +487,7 @@
         app:layout_constraintStart_toEndOf="@id/imageView12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/adView"
-        android:foreground="@drawable/my_ripple"
+        android:foreground="@drawable/round_corners"
         />
 
     <TextView
@@ -498,7 +498,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
@@ -514,7 +514,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
@@ -530,7 +530,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
@@ -546,7 +546,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
@@ -562,7 +562,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
@@ -578,7 +578,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
@@ -594,7 +594,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
@@ -610,7 +610,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
@@ -626,7 +626,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="@+id/imageView9"
@@ -642,7 +642,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
@@ -658,7 +658,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
@@ -674,7 +674,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
@@ -690,7 +690,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="@+id/imageView13"
@@ -706,7 +706,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView14"
         app:layout_constraintEnd_toEndOf="@+id/imageView14"
@@ -722,7 +722,7 @@
         android:text="@string/textView"
         android:ems="6"
         android:gravity="center"
-        android:textColor="#2b2b2b"
+        android:textColor="#d5d4d5"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="@+id/imageView15"

@@ -48,10 +48,10 @@
 
     <string-array name="spinnerItems">
         <item>Drum Sets</item>
-        <item>[125bpm Loops]</item>
-        <item>[130bpm Loops]</item>
-        <item>[135bpm Loops]</item>
-        <item>[140bpm Loops]</item>
+        <item>125bpm Loops</item>
+        <item>130bpm Loops</item>
+        <item>135bpm Loops</item>
+        <item>140bpm Loops</item>
         <item>Internal sounds</item>
         <item>External sounds</item>
     </string-array>
