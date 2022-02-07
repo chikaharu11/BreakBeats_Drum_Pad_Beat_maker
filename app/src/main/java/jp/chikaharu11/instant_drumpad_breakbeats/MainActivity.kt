@@ -194,7 +194,7 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
     private var adCheck = 0
 
 
-    @SuppressLint("ClickableViewAccessibility", "SetTextI18n", "Range")
+    @SuppressLint("ClickableViewAccessibility", "SetTextI18n", "Range", "CutPasteId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -874,14 +874,20 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
             arrayOf(
                 "演奏モード⇔パッド音の変更",
                 "メトロノーム・ループ",
-                "サンプル・ループ",
+                "125bpm・ループ",
+                "130bpm・ループ",
+                "135bpm・ループ",
+                "140bpm・ループ",
                 "外部サウンド・ループ",
                 "ドラムパッドをリセット"
             ) } else {
             arrayOf(
                 "Play mode ↔ Change pad sounds",
                 "Metronome Loops",
-                "Sample Loops",
+                "125bpm Loops",
+                "130bpm Loops",
+                "135bpm Loops",
+                "140bpm Loops",
                 "External sound Loops",
                 "Reset drum pads"
             )
@@ -916,24 +922,59 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
                     switch1 = 2
                     buttonA = 16
                     buttonB = 2
-                    soundListView.adapter = nCustomAdapter
-                    nCustomAdapter.notifyDataSetChanged()
+                    soundListView.adapter = eCustomAdapter
+                    eCustomAdapter.notifyDataSetChanged()
                     soundListView.visibility = View.VISIBLE
                     gridView2.visibility = View.INVISIBLE
                 }
-                "サンプル・ループ" -> {
+                "125bpm・ループ" -> {
                     lmp.stop()
                     menuSwitch = true
                     invalidateOptionsMenu()
                     switch1 = 2
                     buttonA = 16
                     buttonB = 2
-                    soundListView.adapter = oCustomAdapter
-                    oCustomAdapter.notifyDataSetChanged()
+                    soundListView.adapter = aCustomAdapter
+                    aCustomAdapter.notifyDataSetChanged()
                     soundListView.visibility = View.VISIBLE
                     gridView2.visibility = View.INVISIBLE
                 }
-
+                "130bpm・ループ" -> {
+                    lmp.stop()
+                    menuSwitch = true
+                    invalidateOptionsMenu()
+                    switch1 = 2
+                    buttonA = 16
+                    buttonB = 2
+                    soundListView.adapter = bCustomAdapter
+                    bCustomAdapter.notifyDataSetChanged()
+                    soundListView.visibility = View.VISIBLE
+                    gridView2.visibility = View.INVISIBLE
+                }
+                "135bpm・ループ" -> {
+                    lmp.stop()
+                    menuSwitch = true
+                    invalidateOptionsMenu()
+                    switch1 = 2
+                    buttonA = 16
+                    buttonB = 2
+                    soundListView.adapter = cCustomAdapter
+                    cCustomAdapter.notifyDataSetChanged()
+                    soundListView.visibility = View.VISIBLE
+                    gridView2.visibility = View.INVISIBLE
+                }
+                "140bpm・ループ" -> {
+                    lmp.stop()
+                    menuSwitch = true
+                    invalidateOptionsMenu()
+                    switch1 = 2
+                    buttonA = 16
+                    buttonB = 2
+                    soundListView.adapter = dCustomAdapter
+                    dCustomAdapter.notifyDataSetChanged()
+                    soundListView.visibility = View.VISIBLE
+                    gridView2.visibility = View.INVISIBLE
+                }
                 "外部サウンド・ループ" -> {
                     lmp.stop()
                     menuSwitch = true
@@ -1082,24 +1123,59 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
                     switch1 = 2
                     buttonA = 16
                     buttonB = 2
-                    soundListView.adapter = nCustomAdapter
-                    nCustomAdapter.notifyDataSetChanged()
+                    soundListView.adapter = eCustomAdapter
+                    eCustomAdapter.notifyDataSetChanged()
                     soundListView.visibility = View.VISIBLE
                     gridView2.visibility = View.INVISIBLE
                 }
-                "Sample Loops" -> {
+                "125bpm Loops" -> {
                     lmp.stop()
                     menuSwitch = true
                     invalidateOptionsMenu()
                     switch1 = 2
                     buttonA = 16
                     buttonB = 2
-                    soundListView.adapter = oCustomAdapter
-                    oCustomAdapter.notifyDataSetChanged()
+                    soundListView.adapter = aCustomAdapter
+                    aCustomAdapter.notifyDataSetChanged()
                     soundListView.visibility = View.VISIBLE
                     gridView2.visibility = View.INVISIBLE
                 }
-
+                "130bpm Loops" -> {
+                    lmp.stop()
+                    menuSwitch = true
+                    invalidateOptionsMenu()
+                    switch1 = 2
+                    buttonA = 16
+                    buttonB = 2
+                    soundListView.adapter = bCustomAdapter
+                    bCustomAdapter.notifyDataSetChanged()
+                    soundListView.visibility = View.VISIBLE
+                    gridView2.visibility = View.INVISIBLE
+                }
+                "135bpm Loops" -> {
+                    lmp.stop()
+                    menuSwitch = true
+                    invalidateOptionsMenu()
+                    switch1 = 2
+                    buttonA = 16
+                    buttonB = 2
+                    soundListView.adapter = cCustomAdapter
+                    cCustomAdapter.notifyDataSetChanged()
+                    soundListView.visibility = View.VISIBLE
+                    gridView2.visibility = View.INVISIBLE
+                }
+                "140bpm Loops" -> {
+                    lmp.stop()
+                    menuSwitch = true
+                    invalidateOptionsMenu()
+                    switch1 = 2
+                    buttonA = 16
+                    buttonB = 2
+                    soundListView.adapter = dCustomAdapter
+                    dCustomAdapter.notifyDataSetChanged()
+                    soundListView.visibility = View.VISIBLE
+                    gridView2.visibility = View.INVISIBLE
+                }
                 "External sound Loops" -> {
                     lmp.stop()
                     menuSwitch = true
