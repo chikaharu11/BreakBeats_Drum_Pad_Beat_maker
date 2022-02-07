@@ -872,24 +872,24 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
 
         val choose = if (locale == Locale.JAPAN) {
             arrayOf(
+                "ドラムパッドをリセット",
                 "演奏モード⇔パッド音の変更",
                 "メトロノーム・ループ",
                 "125bpm・ループ",
                 "130bpm・ループ",
                 "135bpm・ループ",
                 "140bpm・ループ",
-                "外部サウンド・ループ",
-                "ドラムパッドをリセット"
+                "外部サウンド・ループ"
             ) } else {
             arrayOf(
+                "Reset drum pads",
                 "Play mode ↔ Change pad sounds",
                 "Metronome Loops",
                 "125bpm Loops",
                 "130bpm Loops",
                 "135bpm Loops",
                 "140bpm Loops",
-                "External sound Loops",
-                "Reset drum pads"
+                "External sound Loops"
             )
         }
         val adapter2 = ArrayAdapter(this, R.layout.custom_spinner_dropdown, choose)
