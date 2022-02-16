@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/BreakBeats_Drum_Pad_Beat_maker/app/src/main/res/layout-land/activity_main.xml" value="0.23155737704918034" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/BreakBeats_Drum_Pad_Beat_maker/app/src/main/res/layout-land/tuning_list.xml" value="0.5088541666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/BreakBeats_Drum_Pad_Beat_maker/app/src/main/res/layout-land/tuning_pad.xml" value="0.5177083333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/BreakBeats_Drum_Pad_Beat_maker/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/BreakBeats_Drum_Pad_Beat_maker/app/src/main/res/layout/tuning_list.xml" value="0.3625" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Instant_DrumPad_TR-808/app/src/main/res/drawable/background.xml" value="0.3828125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Instant_DrumPad_TR-808/app/src/main/res/drawable/ic_baseline_library_music_24.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Instant_DrumPad_TR-808/app/src/main/res/drawable/ic_baseline_library_music_24_c.xml" value="0.37864583333333335" />
@@ -46,7 +51,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
