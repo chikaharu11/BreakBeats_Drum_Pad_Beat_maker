@@ -222,7 +222,7 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
                 binding.textView13.text = padText13
                 binding.textView14.text = padText14
                 binding.textView15.text = padText15
-                findViewById<TextView>(R.id.padText0).text = actionTitle
+                findViewById<TextView>(R.id.padText0).text = "loop"
         findViewById<View>(R.id.include_view).findViewById<TextView>(R.id.padText).text = padText1
         findViewById<View>(R.id.include_view2).findViewById<TextView>(R.id.padText).text = padText2
         findViewById<View>(R.id.include_view3).findViewById<TextView>(R.id.padText).text = padText3
@@ -4312,6 +4312,7 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
         if (mRewardedAd != null) {
             mRewardedAd?.show(this) { rewardItem ->
                 binding.adView.visibility = View.GONE
+                binding.bottomSpace.visibility = View.GONE
                 binding.gridView.visibility = View.INVISIBLE
                 adCheck = 1
                 stickyImmersiveMode()
@@ -4742,6 +4743,11 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
                     actionTitle = soundList.name.replaceBeforeLast("/", "").replace("/", "")
                         .replaceAfterLast(".", "").replace("_", " ").replace("."," ").uppercase() + " loop"
                     supportActionBar?.title = actionTitle
+                    if (resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT) {
+                        findViewById<TextView>(R.id.padText0).text = count.toString().replace("f", "") + " " + actionTitle + " " + bpm.toString().replace("f", "").uppercase()
+                    } else if (resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+                        findViewById<TextView>(R.id.padText0).text = count.toString().replace("f", "") + "\n\n" + "loop" + "\n\n" + bpm.toString().replace("f", "").uppercase()
+                    }
                     soundPool.setOnLoadCompleteListener{ soundPool, _, _ ->
                         soundPool.stop(soundPool.play(sound16, 1.0f, 1.0f, 0, 0, 1.0f))
                     }
@@ -5084,6 +5090,11 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
                     bpm = 1.0f
                     actionTitle = soundList.name.replaceAfterLast(".", "").replace("_", " ").replace("."," ").uppercase() + " loop"
                     supportActionBar?.title = actionTitle
+                    if (resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT) {
+                        findViewById<TextView>(R.id.padText0).text = count.toString().replace("f", "") + " " + actionTitle + " " + bpm.toString().replace("f", "").uppercase()
+                    } else if (resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+                        findViewById<TextView>(R.id.padText0).text = count.toString().replace("f", "") + "\n\n" + "loop" + "\n\n" + bpm.toString().replace("f", "").uppercase()
+                    }
                     soundPool.setOnLoadCompleteListener{ soundPool, _, _ ->
                         soundPool.stop(soundPool.play(sound16, 1.0f, 1.0f, 0, 0, 1.0f))
                     }
@@ -5315,6 +5326,7 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
         adCheck = savedInstanceState.getInt("DATA")
         if ( adCheck == 1) {
             binding.adView.visibility = View.GONE
+            binding.bottomSpace.visibility = View.GONE
         }
     }
 }

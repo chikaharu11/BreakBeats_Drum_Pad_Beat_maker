@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:gravity="center_vertical"
-            android:textColor="#FFFFFF"
+            android:textColor="#2c2a34"
             android:textSize="16sp"
             android:fontFamily="sans-serif"
             android:textStyle="bold"
